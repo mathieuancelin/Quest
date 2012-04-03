@@ -1,0 +1,10 @@
+@()
+
+@main("Quest") {
+    
+    <form action="@routes.Application.startGame()" method="POST">
+        <input name="username" id="username" type="text">
+        <input type="submit" value="Play">
+    </form>
+
+}
